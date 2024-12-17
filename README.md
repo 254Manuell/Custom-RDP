@@ -1,8 +1,11 @@
-# Remote Desktop Project (RDP)
+# 🌌 Remote Desktop Project (RDP)
 
-This project implements a web-based remote desktop interface using modern frameworks and tools. It provides a seamless experience for users to connect and manage remote systems with ease.
+![image](https://github.com/user-attachments/assets/0675d51c-91c0-420c-b705-d961bab796c4)
 
-## Features
+
+This project implements a web-based remote desktop interface using modern frameworks and tools. It provides a seamless experience for users to connect and manage remote systems with the ease of traversing the cosmos.
+
+## 🚀 Features
 - **User Interface Components**:
   - Customizable buttons, sliders, inputs, and labels.
   - Responsive design using Tailwind CSS.
@@ -14,13 +17,13 @@ This project implements a web-based remote desktop interface using modern framew
 - **Assets**:
   - Branding icons and images for enhanced visuals.
 
-## Technologies Used
+## 🛰️ Technologies Used
 - **Framework**: Next.js
 - **Styling**: Tailwind CSS
 - **Programming Language**: TypeScript
 - **Package Management**: npm and pnpm
 
-## Setup Instructions
+## 🌠 Setup Instructions
 
 ### Prerequisites
 - Node.js (v16.x or later)
@@ -31,7 +34,6 @@ This project implements a web-based remote desktop interface using modern framew
    ```bash
    git clone <repository-url>
    cd rdp
-   ```
 
 2. Install dependencies:
    ```bash
@@ -83,16 +85,6 @@ rdp/
 ├── tailwind.config.ts  # Tailwind configuration
 └── tsconfig.json  # TypeScript configuration
 ```
-
-## Screenshots
-
-### App Layout
-![App Layout](public/images/app-preview.png)
-*A preview of the application interface*
-
-### Dashboard View
-![Dashboard](public/images/dashboard.png)
-*An example of the interactive dashboard*
 
 ## License
 This project is licensed under the MIT License.
