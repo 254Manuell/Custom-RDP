@@ -1,30 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Remote Desktop Project (RDP)
 
-## Getting Started
+This project implements a web-based remote desktop interface using modern frameworks and tools. It provides a seamless experience for users to connect and manage remote systems with ease.
 
-First, run the development server:
+## Features
+- **User Interface Components**:
+  - Customizable buttons, sliders, inputs, and labels.
+  - Responsive design using Tailwind CSS.
+- **Remote Desktop Integration**:
+  - Connect and disconnect API routes.
+  - Interactive client and interface components.
+- **Utilities**:
+  - Helper functions to streamline development.
+- **Assets**:
+  - Branding icons and images for enhanced visuals.
 
-```bash
-pnpm dev
+## Technologies Used
+- **Framework**: Next.js
+- **Styling**: Tailwind CSS
+- **Programming Language**: TypeScript
+- **Package Management**: npm and pnpm
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v16.x or later)
+- npm or pnpm (latest version)
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd rdp
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   Access the app at `http://localhost:3000`.
+
+### Building for Production
+1. Build the application:
+   ```bash
+   npm run build
+   ```
+
+2. Start the production server:
+   ```bash
+   npm start
+   ```
+
+## Project Structure
+```
+rdp/
+├── app/
+│   ├── api/
+│   │   ├── connect/route.ts  # API route for connecting
+│   │   ├── disconnect/route.ts  # API route for disconnecting
+│   ├── components/  # UI and core application components
+│   ├── globals.css  # Global styles
+│   ├── layout.tsx  # Main layout of the application
+│   ├── page.tsx  # Entry page of the app
+├── components/
+│   ├── ui/  # Reusable UI components
+├── lib/
+│   ├── utils.ts  # Utility functions
+├── public/
+│   ├── next.svg  # Next.js logo
+│   ├── vercel.svg  # Vercel logo
+├── public/images/
+│   ├── app-preview.png  # Application preview screenshot
+│   ├── dashboard.png  # Dashboard UI screenshot
+├── README.md  # Project documentation
+├── package.json  # Project metadata and dependencies
+├── tailwind.config.ts  # Tailwind configuration
+└── tsconfig.json  # TypeScript configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### App Layout
+![App Layout](public/images/app-preview.png)
+*A preview of the application interface*
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Dashboard View
+![Dashboard](public/images/dashboard.png)
+*An example of the interactive dashboard*
 
-## Learn More
+## License
+This project is licensed under the MIT License.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribution
+Contributions are welcome! Please submit a pull request or open an issue to suggest improvements or report bugs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
